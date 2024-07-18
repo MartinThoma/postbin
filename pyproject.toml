@@ -1,0 +1,15 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[project]
+name = "request-bin"
+version = "0.1.0"
+description = "A simple Flask webserver to log all incoming requests with their headers and payloads"
+authors = [{name = "Martin Thoma", email = "info@martin-thoma.de"}]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["flask", "rich"]
+
+[project.scripts]
+request-bin = "request_bin:main"
