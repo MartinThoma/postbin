@@ -13,3 +13,6 @@ dependencies = ["flask", "rich"]
 
 [project.scripts]
 postbin = "postbin:main"
+
+[project.urls]
+Source = "https://github.com/MartinThoma/postbin"
