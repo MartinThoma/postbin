@@ -54,4 +54,4 @@ repos:
     hooks:
       - id: mypy
         additional_dependencies: [types-Pillow==10.0.0.2]
-        files: ^request_bin/.*
+        files: ^postbin/.*
