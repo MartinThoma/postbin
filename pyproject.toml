@@ -34,4 +34,4 @@ postbin = "postbin:main"
 Source = "https://github.com/MartinThoma/postbin"
 
 [tool.flit.sdist]
-exclude = [".github/*", ".pre-commit-config.yaml", ".gitignore"]
+exclude = [".github/*", ".pre-commit-config.yaml", ".gitignore", "Makefile"]
